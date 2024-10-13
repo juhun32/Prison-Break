@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Prison-Break/static/css/main.8fea98ef.css",
+    "main.js": "/Prison-Break/static/js/main.824ca96b.js",
+    "static/js/453.d855a71b.chunk.js": "/Prison-Break/static/js/453.d855a71b.chunk.js",
+    "static/media/prison.jpg": "/Prison-Break/static/media/prison.4b783b3081fe7c3994d1.jpg",
+    "static/media/team3.png": "/Prison-Break/static/media/team3.73c3ef6bde8fb861264e.png",
+    "static/media/team2.png": "/Prison-Break/static/media/team2.0fc233c909daa66c581f.png",
+    "static/media/team1.png": "/Prison-Break/static/media/team1.d098f800b3904eb0cb51.png",
+    "static/media/team4.png": "/Prison-Break/static/media/team4.ad078c632c24406565af.png",
+    "index.html": "/Prison-Break/index.html",
+    "main.8fea98ef.css.map": "/Prison-Break/static/css/main.8fea98ef.css.map",
+    "main.824ca96b.js.map": "/Prison-Break/static/js/main.824ca96b.js.map",
+    "453.d855a71b.chunk.js.map": "/Prison-Break/static/js/453.d855a71b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8fea98ef.css",
+    "static/js/main.824ca96b.js"
+  ]
+}
