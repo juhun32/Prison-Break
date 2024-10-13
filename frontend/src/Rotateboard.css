@@ -1,0 +1,38 @@
+/* RotatingMenuBoard.css */
+.menu-board-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    height: 150px;           /* Set a height for the container */
+    background-color: #f4f4f4; /* Light background for contrast */
+    position: relative;       /* Positioning context for absolute text */
+    overflow: hidden;         /* Hide overflowing text */
+}
+
+.menu-item {
+    position: absolute;       /* Position absolutely for rotation effect */
+    width: 100%;             /* Full width of the container */
+    height: 100%;            /* Full height of the container */
+    background-color: white; /* Background color */
+    color: black;            /* Text color */
+    display: flex;
+    justify-content: center;  /* Center text horizontally */
+    align-items: center;      /* Center text vertically */
+    font-size: 20px;         /* Font size */
+    transition: opacity 5s ease-in-out; /* Smooth opacity transition */
+    opacity: 0;               /* Start with hidden text */
+    text-align: center;
+}
+
+.menu-item:nth-child(1) {
+    opacity: 1; /* Show first item initially */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* Start hidden */
+    }
+    to {
+        opacity: 1; /* Fade in */
+    }
+}
