@@ -1,0 +1,31 @@
+/* GridComponent.css */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+    gap: 20px;                              /* Space between boxes */
+    margin: 20px;
+}
+
+.grid-box {
+    background-color: #f0f0f0;             /* Light gray background */
+    position: relative;                     /* For positioning the image */
+    overflow: hidden;                       /* Hide overflow */
+    height: 200px;                          /* Fixed height of each box */
+    border-radius: 20px;                     /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+.grid-box img {
+    position: absolute;                     /* Position image absolutely */
+    top: 50%;                               /* Center vertically */
+    left: 50%;                              /* Center horizontally */
+    width: 100%;                            /* Full width */
+    height: 100%;                           /* Full height */
+    object-fit: cover;                      /* Cover the box without distortion */
+    transform: translate(-50%, -50%);      /* Adjust positioning */
+    border-radius: 5px;                     /* Match box corners */
+}
+
+.image-name {
+    text-align: center;
+}

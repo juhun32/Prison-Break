@@ -1,0 +1,17 @@
+{
+  "years": [0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5],
+  "cost_regular": [
+    1.848498264, 1.848498264, 1.848498264, 1.848498264, 1.848498264,
+    1.848498264, 1.848498264, 1.848498264, 1.848498264, 1.848498264, 1.848498264
+  ],
+  "cost_adjusted": [
+    1.848498264, 1.848498264, 1.848498264, 1.848498264, 1.848498264, 1.5677915,
+    1.5677915, 1.5677915, 1.5677915, 1.5677915, 1.5677915
+  ],
+  "labels": {
+    "x_axis": "Years",
+    "y_axis": "Annual Cost of Holding Prisoners (in Millions USD)",
+    "title": "Annual Cost of Holding Prisoners in Virginia State Prisons"
+  },
+  "formatting": { "y_axis_formatter": "Millions USD" }
+}
