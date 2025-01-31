@@ -1,6 +1,6 @@
 ## PatriotHacks 2024 Project - Prison Break
 ---
-[DEMO](https://juhun32.github.io/prison-break/): [https://juhun32.github.io/Prison-Break/](https://juhun32.github.io/prison-break/)
+[DEMO](https://juhun32.github.io/Prison-Break/): [https://juhun32.github.io/Prison-Break/](https://juhun32.github.io/Prison-Break/)
 
 [DEVPOST](https://devpost.com/software/prison-break-qcript): https://devpost.com/software/prison-break-qcript
 
